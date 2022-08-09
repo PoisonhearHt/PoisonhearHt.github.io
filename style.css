@@ -1,0 +1,23 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.elemento1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: blueviolet;
+}
+
+.elemento2,.elemento3,.elemento4{
+    background-color: darkgreen;
+}
+
+.elemento5{
+    background-color: royalblue;
+}
+
+body{
+    background-color: cornflowerblue;
+}
